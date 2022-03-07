@@ -4,4 +4,9 @@ const navbarLinks = document.getElementsByClassName('nav-links')[0]
 toggleButton.addEventListener('click', () => {
         navbarLinks.classList.toggle('active');
     })
-    
+
+const navText = document.getElementsByClassName('nav-text')[0]
+
+navbarLinks.addEventListener('click', () => {
+    navbarLinks.classList.toggle('active');
+})
