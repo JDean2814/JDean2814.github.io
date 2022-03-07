@@ -17,7 +17,14 @@ h2 {
     font-weight: bold;
     font-size: 50px;
     margin: 0;
+    text-align: center;
 }
+
+h3 {
+    color: white;
+    font-family: sans-serif;
+}
+
 
 p {
     color: rgb(255, 255, 255);
@@ -117,6 +124,10 @@ nav img {
     .nav-links.active {
         display: block;
     }
+
+    .nav-text.active {
+        display: none;
+    }
 }
 
 #home {
@@ -155,6 +166,24 @@ nav img {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+#hireme-button {
+    width: 50%;
+    height: 3rem;
+    margin: 10px auto;
+    background-color: #4369D9;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+
+}
+
+#hireme-button a {
+    text-decoration: none;
+    color: white;
 }
 
 #about-me {
@@ -204,6 +233,31 @@ nav img {
     padding: 30px;
 }
 
+#project {
+    height: auto;
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#project h2 {
+    padding-bottom: 30px;
+}
+
+#project-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.project-card {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
 #contact {
     margin-top: 100px;
     margin-bottom: 50px;
@@ -224,7 +278,8 @@ form label {
 }
 
 #submit {
-    width: auto;
+    width: 50%;
+    margin: 0 auto;
     background-color: #4369D9;
     color: white;
     text-transform: uppercase;
